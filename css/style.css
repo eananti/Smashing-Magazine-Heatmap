@@ -188,6 +188,10 @@ a {
   position: absolute;
 }
 
+.white {
+  color: #fff;
+}
+
 /* navbar */
 
 header {
@@ -219,7 +223,7 @@ ul {
 form input,
 .nav-list,
 .nav-btn button {
-  
+
   font-size: 24px;
   letter-spacing: -1px;
   line-height: 34.4578px;
@@ -233,7 +237,6 @@ form input,
 
 .nav-list,
 .nav-btn button {
-  color: white;
   padding: 7px 14px;
 }
 
@@ -278,7 +281,6 @@ form input,
 }
 
 .article-h4 {
-  background-color: white;
   display: inline;
   position: relative;
   line-height: 2px;
@@ -300,7 +302,6 @@ form input,
 .fa-clipboard-check {
   font-size: 55px;
   margin-left: 10px;
-  color: white;
 }
 
 .absol-btn {
@@ -328,6 +329,7 @@ form input,
 .article-top-4 {
   background-color: rgb(105,105,105);
 }
+
 .article-top-1,
 .article-top-2 {
   padding-top: 200px;
@@ -339,10 +341,38 @@ form input,
 .article-top-4 {
   width: 50%;
   height: 30em;
+  padding-top: 80px;
 }
 
 article img {
-  width:25px;
+  width: 75px;
   height: auto;
+  transform: rotate(-15deg);
+  margin-right: 20px;
+  border: 3px solid lightgray;
+  border-radius: 8px;
+}
 
+article img:hover {
+  transform: rotate(0deg);
+}
+
+.article-flex article {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.article-flex p {
+  clear: left;
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+.article-flex i {
+  font-size: 30px;
+  padding-top: 80px;
+}
+
+.article-links-name {
+  font-size: 18px;
 }
