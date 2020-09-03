@@ -194,6 +194,10 @@ form input {
   border: none;
 }
 
+ul {
+  min-width: 60%;
+}
+
 form input,
 .nav-list,
 .nav-btn button {
