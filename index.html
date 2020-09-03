@@ -7,23 +7,27 @@
   <title>Smashing Magazine Clone</title>
   <link rel="stylesheet" href="./css/style.css">
   <script src="https://kit.fontawesome.com/5036f34c07.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <nav>
-      <div class="logo f-left">
+    <nav class="f-left dflex">
+      <div class="logo">
         <img src="./images/logo--full.svg">
       </div>
-      <ul class="dflex f-left">
+      <ul class="dflex">
         <li class="nav-list"><a href="#" class="nostyle">Articles</a></li>
         <li class="nav-list"><a href="#">Guides</a></li>
         <li class="nav-list"><a href="#">Books</a></li>
         <li class="nav-list"><a href="#">Events</a></li>
         <li class="nav-list"><a href="#">Membership</a></li>
-        <li class="nav-btn"><button type="button" >More <i class="fas fa-frog"></i></button></li>
+        <li class="nav-btn">
+          <button type="button" >More <i class="fas fa-frog"></i></button>
+        </li>
       </ul>
-      <form class="searchbar f-left">
+      <form class="searchbar">
+        <i class="fas fa-search"></i>
         <input type="text" placeholder="Search articles...">
       </form>
     </nav>
