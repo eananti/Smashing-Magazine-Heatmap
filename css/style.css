@@ -176,6 +176,7 @@ a {
 
 .dgrid {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .f-left {
@@ -375,8 +376,11 @@ article img:hover {
 /* grid articles */
 
 .repeat-arts-3 {
-  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 420px;
+}
+
+.repeat-arts-3,
+.advert {
   background-color: rgb(218, 218, 218);
 }
 
@@ -403,13 +407,17 @@ article img:hover {
 .repeat-arts-3 p {
   margin-top: 30px;
   font-size: 24px;
-} 
+}
 
 .repeat-arts-3 .small {
   font-size: 12px;
   margin-top: 40px;
-} 
+}
 
 .repeat-arts-3 article p:first-child {
   font-size: 12px;
+}
+
+.middle-advert {
+  background-color: rgb(104, 104, 104);
 }
