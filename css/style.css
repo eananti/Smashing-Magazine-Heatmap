@@ -426,17 +426,20 @@ article img:hover,
 
 .repeat-arts-3 article {
   padding: 30px 40px;
-  margin: 0 -10px;
-}
-
-.repeat-arts-3 article:first-child:hover {
-  margin-left: 15px;
 }
 
 .repeat-arts-3 article:hover {
   z-index: 2;
   background-color: white;
   transform: scale(1.2, 1.1);
+}
+
+.repeat-arts-3 article:first-child:hover {
+  margin-left: 15px;
+}
+
+.repeat-arts-3 article:last-child:hover {
+  margin-right: 50px;
 }
 
 .repeat-arts-3 h4 {
@@ -627,7 +630,7 @@ p.already-account {
 
 .community-links,
 .community-child {
-  width: 1300px;
+  margin-left: 85px;
 }
 
 .community-links img {
