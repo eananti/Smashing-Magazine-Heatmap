@@ -570,7 +570,7 @@ p.already-account {
 }
 
 .content-banner button,
-.bigger-add button  {
+.bigger-add button {
   width: 300px;
   height: 48px;
   margin-top: 40px;
@@ -709,12 +709,12 @@ p.already-account {
 }
 
 .text-l {
-  width: 50%;
+  width: 850px;
 }
 
 .featured img {
   width: 300px;
-  margin-top: -60px;
+  margin-top: -40px;
   transform: rotate(-18deg);
 }
 
@@ -729,8 +729,9 @@ p.already-account {
 
 .linked-sections {
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding: 10px 40px 30px 40px;
+  grid-template-rows: 1frwhite 2fr;
+  padding: 10px 110px 30px 50px;
+  gap: 50px;
 }
 
 .linked-sections p {
@@ -746,4 +747,17 @@ p.already-account {
 .linked-sections .p-top {
   font-size: 16px;
   padding-top: 32px;
+}
+
+.linked-sections .p-bot {
+  margin-top: 43px;
+}
+
+.linked-sections button {
+  font-size: 19px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: rgb(59, 59, 59)
 }
