@@ -195,6 +195,18 @@ a {
   color: #fff;
 }
 
+.align-text-center {
+  text-align: center;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.border-none {
+  border: none;
+}
+
 /* navbar */
 
 header {
@@ -214,7 +226,6 @@ form input {
   width: 15em;
   padding: 11px 50px;
   border-radius: 10px;
-  border: none;
   margin-right: 10px;
 }
 
@@ -238,7 +249,6 @@ form input,
 .nav-btn button {
   background-color: #505050;
   border-radius: 10px;
-  border: none;
   margin-left: 20px;
   padding: 7px 20px;
 }
@@ -418,6 +428,85 @@ article img:hover {
   font-size: 12px;
 }
 
+.advert {
+  grid-template-rows: 640px;
+}
+
 .middle-advert {
   background-color: rgb(104, 104, 104);
+}
+
+.small-advert {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.first-advert {
+  width: 400px;
+}
+
+.first-advert > div {
+  background-color: rgba(156, 156, 156, 0.438);
+  border-radius: 9px;
+  margin-top: 20px;
+}
+
+.first-advert img {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 200px;
+  height: auto;
+}
+
+.first-advert .inner-advert-para {
+  width: 300px;
+}
+
+.first-advert button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: rgb(114, 114, 114);
+  border-radius: 4px;
+}
+
+.fa-arrow-down {
+  padding-left: 5px;
+}
+
+.middle-advert .middle-inner {
+  width: 400px;
+}
+
+.middle-advert img {
+  width: 250px;
+  height: auto;
+  margin: 40px 20px;
+}
+
+.middle-advert h3 {
+  font-size: 40px;
+}
+
+.middle-advert p {
+  margin: 25px 0;
+  line-height: 40px;
+}
+
+.middle-advert p,
+.middle-advert button {
+  font-size: 21px;
+}
+
+.middle-advert button {
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.advert-arrow-third {
+  margin-top: 210px;
+}
+
+p.already-account {
+  font-size: 14px;
 }
