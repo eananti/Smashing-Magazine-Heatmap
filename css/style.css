@@ -819,12 +819,22 @@ footer {
 footer ul {
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 34px;
+  margin-top: 38px;
 }
 
 footer li {
   list-style-type: disc;
   margin-left: 25px;
   line-height: 40px;
-  font-size: 20px;
+  font-size: 22px;
+}
+
+ .middle {
+   margin: 20px 150px;
+   line-height: 35px;
+   font-size: 14px;
+ }
+
+footer img {
+  width: 200px;
 }
