@@ -4,7 +4,9 @@
 
 /* navbar */
 
-/* Article grid */
+/* Article flex */
+
+/* grid articles */
 
 /* reset */
 
@@ -360,11 +362,54 @@ article img:hover {
   padding-top: 40px;
 }
 
-.article-flex i {
+.article-flex i,
+.repeat-arts-3 i  {
   font-size: 30px;
   padding-top: 80px;
 }
 
 .article-links-name {
   font-size: 18px;
+}
+
+/* grid articles */
+
+.repeat-arts-3 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 420px;
+  background-color: rgb(218, 218, 218);
+}
+
+.repeat-arts-3 article {
+  padding: 30px 40px;
+  margin: 0 -10px;
+}
+
+.repeat-arts-3 article:first-child:hover {
+  margin-left: 15px;
+}
+
+.repeat-arts-3 article:hover {
+  z-index: 2;
+  background-color: white;
+  transform: scale(1.2, 1.1);
+}
+
+.repeat-arts-3 h4 {
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.repeat-arts-3 p {
+  margin-top: 30px;
+  font-size: 24px;
+} 
+
+.repeat-arts-3 .small {
+  font-size: 12px;
+  margin-top: 40px;
+} 
+
+.repeat-arts-3 article p:first-child {
+  font-size: 12px;
 }
