@@ -487,7 +487,8 @@ article img:hover {
 .middle-advert img {
   width: 250px;
   height: auto;
-  margin: 40px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .middle-advert h3 {
