@@ -430,6 +430,8 @@ article img:hover {
 
 .advert {
   grid-template-rows: 640px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .middle-advert {
@@ -445,9 +447,13 @@ article img:hover {
   width: 400px;
 }
 
+.first-advert > div,
+.middle-advert {
+  border-radius: 9px;
+}
+
 .first-advert > div {
   background-color: rgba(156, 156, 156, 0.438);
-  border-radius: 9px;
   margin-top: 20px;
 }
 
