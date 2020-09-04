@@ -8,6 +8,10 @@
 
 /* grid articles */
 
+/* Content Banner Section */
+
+/* Bigger Advertisement Section */
+
 /* reset */
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -162,6 +166,31 @@ a {
   color: inherit;
 }
 
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: inherit;
+}
+
+button {
+  font-family: 'Spectral', serif;
+}
+
+.middle-art-color {
+  background-color: rgb(104, 104, 104);
+}
+
+.b-rad-ten {
+  border-radius: 10px;
+}
+
+.b-rad-eight {
+  border-radius: 8px;
+}
+
+.b-rad-five{
+  border-radius: 5px;
+}
+
 .dflex {
   display: flex;
 }
@@ -225,7 +254,6 @@ nav {
 form input {
   width: 15em;
   padding: 11px 50px;
-  border-radius: 10px;
   margin-right: 10px;
 }
 
@@ -248,7 +276,6 @@ form input,
 
 .nav-btn button {
   background-color: #505050;
-  border-radius: 10px;
   margin-left: 20px;
   padding: 7px 20px;
 }
@@ -276,7 +303,7 @@ form input,
  position: relative;
 }
 
-.centered-text {
+.centered-notification-text {
   top: 60px;
   left: 25%;
   font-size: 36px;
@@ -311,7 +338,6 @@ form input,
 .absol-btn {
   width: 10em;
   height: 60%;
-  border-radius: 8px;
 }
 
 .article-flex {
@@ -369,7 +395,7 @@ article img:hover {
 
 .article-flex p {
   clear: left;
-  font-size: 40px;
+  font-size: 28px;
   padding-top: 40px;
 }
 
@@ -387,6 +413,7 @@ article img:hover {
 
 .repeat-arts-3 {
   grid-template-rows: 420px;
+  padding-top: 40px;
 }
 
 .repeat-arts-3,
@@ -425,17 +452,13 @@ article img:hover {
 }
 
 .repeat-arts-3 article p:first-child {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .advert {
   grid-template-rows: 640px;
   padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.middle-advert {
-  background-color: rgb(104, 104, 104);
+  padding-bottom: 10px;
 }
 
 .small-advert {
@@ -473,7 +496,6 @@ article img:hover {
   margin-bottom: 30px;
   padding: 10px;
   background-color: rgb(114, 114, 114);
-  border-radius: 4px;
 }
 
 .fa-arrow-down {
@@ -502,7 +524,7 @@ article img:hover {
 
 .middle-advert p,
 .middle-advert button {
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .middle-advert button {
@@ -517,3 +539,85 @@ article img:hover {
 p.already-account {
   font-size: 14px;
 }
+
+/* Content Banner Section */
+
+.content-banner {
+  width: 89%;
+}
+
+.content-banner img {
+  width: 320px;
+  height: auto;
+  border-radius: 100%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.content-banner .middle-inner {
+  width: 700px;
+}
+
+.content-banner h3 {
+  font-size: 45px;
+}
+
+.content-banner p {
+  font-size: 20px;
+  margin-top: 39px;
+}
+
+.content-banner button,
+.bigger-add button  {
+  width: 300px;
+  height: 48px;
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.content-banner .already-account {
+  font-size: 16px;
+  padding-bottom: 26px;
+}
+
+.section-break {
+  border-bottom: 3px solid black;
+  width: 195px;
+  margin-top: 69px;
+  margin-bottom: 69px;
+  padding-bottom: 10px;
+}
+
+.section-break i {
+  margin-left: 5px;
+}
+
+/* Bigger Advertisement Section */
+
+.bigger-add {
+  padding-top:30px;
+}
+
+.bigger-add .middle-inner {
+  width: 65%;
+}
+
+.bigger-add p {
+  margin-top: 40px;
+  font-size: 21px;
+}
+
+.bigger-add h3 {
+  font-size: 40px;
+  margin-top: 50px;
+  text-decoration: underline gray;
+}
+
+.bigger-add img {
+  width: 500px;
+  height: auto;
+  margin-top: 58px;
+}
+
+
+
