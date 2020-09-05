@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Smashing-Magazine-Heatmap
-> This project consists of building a heatmap of the [Smashing Magazine website](https://www.smashingmagazine.com/).
+> This project consists of building a heatmap of the [Smashing Magazine](https://www.smashingmagazine.com/) website.
 
 ![screenshot](./images/website-screenshot.png)
 
@@ -24,9 +24,11 @@
 
 > Refer to [Linters Config](https://github.com/eananti/linters-config/tree/master/html-css) for project setup guide.
 
+> Set screen size to ```1440px``` before reviewing this project. For Chrome users, refer to [this guide](https://gitlab.com/microverse/guides/projects/requirements_screenshots/raw/master/images/html_css/design_teardown/set_screen_size.gif).
+
 ## Live Demo
 
-[Live Demo Link](https://ceejayski.github.io/Old-Apple-Website-Clone/)
+[Live Demo Link](https://eananti.github.io/Smashing-Magazine-Heatmap/)
 
 ## Authors
 
@@ -38,9 +40,9 @@
 
 👤 **Author2**
 
-- Github: [@Ceejayski](https://github.com/ceejayski)
-- Twitter: [@Ceejaski1](https://twitter.com/Ceejayski1)
-- Linkedin: [Okoli Chijioke](https://www.linkedin.com/in/okolichijioke/)
+- Github: [@sneeu-leeu](https://github.com/sneeu-leeu)
+- Twitter: [@Stephan07484055](https://twitter.com/Stephan07484055)
+- Linkedin: [Stephan Annandale](https://www.linkedin.com/in/stephan-annandale-a4b4931a9/)
 
 ## Show your support
 
