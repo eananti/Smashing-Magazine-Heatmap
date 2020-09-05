@@ -626,7 +626,7 @@ article img:hover,
   padding-right: 60px;
 }
 
-.article-flex p {
+.article-flex h2 {
   clear: left;
   font-size: 28px;
   padding-top: 40px;
