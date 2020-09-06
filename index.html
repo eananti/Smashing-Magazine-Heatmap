@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smashing Magazine Clone</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/5036f34c07.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="f-left dflex">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="Logo">
+      </div>
+      <ul class="dflex">
+        <li class="nav-list white"><a href="#" class="nostyle">Articles</a></li>
+        <li class="nav-list white"><a href="#">Guides</a></li>
+        <li class="nav-list white"><a href="#">Books</a></li>
+        <li class="nav-list white"><a href="#">Events</a></li>
+        <li class="nav-list white"><a href="#">Membership</a></li>
+        <li class="nav-list white"><a href="#">Jobs</a></li>
+        <li class="nav-btn">
+          <button class="white border-none b-rad-ten" type="button">More <i class="fas fa-frog"></i></button>
+        </li>
+      </ul>
+      <form class="searchbar">
+        <i class="fas fa-search"></i>
+        <input class="border-none b-rad-ten" type="text" placeholder="Search articles...">
+      </form>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Don't miss latest article -->
+    <div class='article-and-subs'>
+      <div class="centered-notification-text p-absolute">
+        <h4 class="article-h4 z-index-top white">Don’t Miss These Latest</h4> <br>
+        <h4 class="article-h4 z-index-bot p-absolute art-space white"> Articles</h4>
+      </div>
+
+      <div class="right-text dflex p-absolute">
+        <i class="fas fa-clipboard-check white"></i>
+        <button type="button" class="absol-btn b-rad-eight">Bring red back</button>
+      </div>
+    </div>
+
+    <!-- Article Section -->
+    <div class="dflex article-flex white">
+      <article class="article-top-1">
+        <div>
+          <div class="f-left">
+            <img src="images/profile-image-placeholder.jpg" alt="profile photo placeholder">
+          </div>
+          <div class="f-left"><a href="#" class="article-links-name">Jurn Wise</a></div>
+        </div>
+        <h2>
+          <a href="#" class="article-links-title">Lorem ipsum dolor sit amet, ne sed doming omnesque salutandi, no
+            nonumy.</a>
+        </h2>
+        <div><i class="fas fa-long-arrow-alt-right"></i></div>
+      </article>
+      <article class="article-top-2">
+        <div>
+          <div class="f-left">
+            <img src="images/profile-image-placeholder.jpg" alt="profile photo placeholder">
+          </div>
+          <div class="f-left"><a href="#" class="article-links-name">Peter Pompies</a></div>
+        </div>
+        <h2>
+          <a href="#" class="article-links-title">Lorem ipsum dolor sit amet, ne sed doming omnesque salutandi, no
+            nonumy.</a>
+        </h2>
+        <div><i class="fas fa-long-arrow-alt-right"></i></div>
+      </article>
+      <article class="article-top-3">
+        <div>
+          <div class="f-left">
+            <img src="images/profile-image-placeholder.jpg" alt="profile photo placeholder">
+          </div>
+          <div class="f-left"><a href="#" class="article-links-name">Susan Skaska</a></div>
+        </div>
+        <h2>
+          <a href="#" class="article-links-title">Lorem ipsum dolor sit amet, ne sed doming omnesque salutandi, no
+            nonumy.</a>
+        </h2>
+        <div><i class="fas fa-long-arrow-alt-right"></i></div>
+      </article>
+      <article class="article-top-4">
+        <div>
+          <div class="f-left">
+            <img src="images/profile-image-placeholder.jpg" alt="profile photo placeholder">
+          </div>
+          <div class="f-left"><a href="#" class="article-links-name">Joshua Cort</a></div>
+        </div>
+        <h2>
+          <a href="#" class="article-links-title">Lorem ipsum dolor sit amet, ne sed doming omnesque salutandi, no
+            nonumy.</a>
+        </h2>
+        <div><i class="fas fa-long-arrow-alt-right"></i></div>
+      </article>
+    </div>
+
+    <!-- Lastest Post Section -->
+    <div class="repeat-arts-3 dgrid z-index-bot">
+      <article>
+        <a href="#">
+          <h4 class="text-underline">Lorem ipsum dolor, sit amet.</h4>
+          <p class="small">by Jana Lombard</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quae similique nulla ducimus numquam
+            ratione vel quidem ad nam. Excepturi.</p>
+          <div><i class="fas fa-long-arrow-alt-right"></i></div>
+        </a>
+      </article>
+
+      <article>
+        <a href="#">
+          <h4 class="text-underline">Lorem ipsum dolor, sit amet.</h4>
+          <p class="small">by Sherlock Cunti</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quae similique nulla ducimus numquam
+            ratione vel quidem ad nam. Excepturi.</p>
+          <div><i class="fas fa-long-arrow-alt-right"></i></div>
+        </a>
+      </article>
+
+      <article>
+        <a href="#">
+          <h4 class="text-underline">Lorem ipsum dolor, sit amet.</h4>
+          <p class="small">by Water Bottle</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quae similique nulla ducimus numquam
+            ratione vel quidem ad nam. Excepturi.</p>
+          <div><i class="fas fa-long-arrow-alt-right"></i></div>
+        </a>
+      </article>
+    </div>
+
+    <!-- Advert Section -->
+    <section class="dgrid advert">
+      <div class="first-advert margin-auto">
+        <p class="small-advert align-text-center">Lorem ipsum dolor sit amet.<i class="fas fa-arrow-down"></i></p>
+        <div class="align-text-center">
+          <img src="./images/logo3.png" alt="black creative">
+          <p class="inner-advert-para margin-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+            maxime!</p>
+          <button class="white border-none b-rad-five" type="button">SIGN UP TODAY</button>
+        </div>
+      </div>
+      <div class="middle-advert middle-art-color">
+        <div class="middle-inner margin-auto align-text-center white">
+          <img src="./images/img4.png" alt="Chess King Stephan">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolor delectus quas perspiciatis aut!
+            Quis!</p>
+          <button class="border-none" type="button">Lorem, ipsum <i class="fas fa-long-arrow-alt-right"></i></button>
+          <p class="already-account">Already have an account? <a>Sign in!</a></p>
+        </div>
+      </div>
+      <div class="repeat-arts-3 z-index-bot">
+        <article>
+          <a href="#">
+            <h4>Lorem ipsum dolor, sit amet.</h4>
+            <p class="small">by Water Bottle</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quae similique nulla ducimus numquam
+              ratione vel quidem ad nam. Excepturi.</p>
+            <div class="advert-arrow-third"><i class="fas fa-long-arrow-alt-right"></i></div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Latest Post Section Two -->
+    <div class="repeat-arts-3 dgrid z-index-bot">
+      <article>
+        <a href="#">
+          <h4>Lorem ipsum dolor, sit amet.</h4>
+          <p class="small">by Jana Lombard</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quae similique nulla ducimus numquam
+            ratione vel quidem ad nam. Excepturi.</p>
+          <div><i class="fas fa-long-arrow-alt-right"></i></div>
+        </a>
+      </article>
+
+      <article>
+        <a href="#">
+          <h4>Lorem ipsum dolor, sit amet.</h4>
+          <p class="small">by Sherlock Cunti</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quae similique nulla ducimus numquam
+            ratione vel quidem ad nam. Excepturi.</p>
+          <div><i class="fas fa-long-arrow-alt-right"></i></div>
+        </a>
+      </article>
+
+      <article>
+        <a href="#">
+          <h4>Lorem ipsum dolor, sit amet.</h4>
+          <p class="small">by Water Bottle</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quae similique nulla ducimus numquam
+            ratione vel quidem ad nam. Excepturi.</p>
+          <div><i class="fas fa-long-arrow-alt-right"></i></div>
+        </a>
+      </article>
+    </div>
+
+    <!-- New Content Banner -->
+    <section class="content-banner middle-art-color margin-auto b-rad-ten">
+      <div class="middle-inner margin-auto align-text-center white">
+        <img src="./images/img5.jpg" alt="Master Yoda">
+        <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus rem voluptatibus aspernatur eum
+          commodi corporis exercitationem laudantium quae totam!</p>
+        <button class="border-none b-rad-five" type="button">Lorem, ipsum <i
+            class="fas fa-long-arrow-alt-right"></i></button>
+        <p class="already-account">Already have an account? <a>Sign in!</a></p>
+      </div>
+    </section>
+
+    <!-- Latest Article Arrow -->
+    <div class="section-break margin-auto">
+      <p>SEE LATEST ARTICLES<i class="fas fa-long-arrow-alt-right"></i></p>
+    </div>
+
+    <!-- Shipping Now Section -->
+    <section class="bigger-add middle-art-color">
+      <div class="middle-inner margin-auto align-text-center white">
+        <p>JUNE 2020 • SHIPPING NOW</p>
+        <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus rem voluptatibus aspernatur eum
+          commodi corporis exercitationem laudantium quae totam!</p>
+        <button class="border-none b-rad-five" type="button">Lorem, ipsum <i
+            class="fas fa-long-arrow-alt-right"></i></button>
+        <p><img src="./images/img6.png" alt="Star wars stuff"></p>
+      </div>
+    </section>
+
+    <!-- Community Links -->
+    <section class="community-links margin-auto">
+      <div class="f-left">
+        <img class="b-rad-ten" src="./images/profile-image-placeholder.jpg" alt="Profile Picture">
+      </div>
+      <div class="f-left">
+        <h3>PERSON OF THE WEEK</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt deleniti vitae delectus fuga
+          voluptatibus sapiente fugit exercitationem qui maiores minima tenetur ad facilis, iste similique quisquam,
+          excepturi ipsam. Beatae neque quis libero magnam quo sequi pariatur tenetur, numquam commodi maxime dolores
+          explicabo et tempora praesentium odio ex ullam quam voluptatum ducimus earum, distinctio corrupti unde saepe
+          animi! Nesciunt recusandae totam, rem nihil autem pariatur, explicabo incidunt eius quod ipsa veniam.</p>
+      </div>
+    </section>
+
+    <!-- Community Children -->
+    <section class="community-child margin-auto">
+      <div>
+        <div class="f-left">
+          <img class="community-img" src="./images/profile-image-placeholder.jpg" alt="Profile Picture">
+        </div>
+        <div class="community-child-text f-left">
+          <span>Mike Paul</span>
+          <h2 class="">Lorem ipsum dolor sit amet.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi odio recusandae adipisci unde
+            accusamus perferendis, corporis neque quaerat nemo expedita quisquam officiis perspiciatis eveniet
+            beatae? Consequuntur nisi quo accusantium eaque deserunt, excepturi et!</p>
+        </div>
+      </div>
+      <div>
+        <div class="f-left">
+          <img class="community-img" src="./images/profile-image-placeholder.jpg" alt="Profile Picture">
+        </div>
+        <div class="community-child-text f-left">
+          <span>Mike Paul</span>
+          <h2 class="">Lorem ipsum dolor sit amet.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi odio recusandae adipisci unde
+            accusamus perferendis, corporis neque quaerat nemo expedita quisquam officiis perspiciatis eveniet
+            beatae? Consequuntur nisi quo accusantium eaque deserunt, excepturi et!</p>
+        </div>
+      </div>
+    </section>
+    <section class="community-child margin-auto">
+      <div>
+        <div class="f-left">
+          <img class="community-img" src="./images/profile-image-placeholder.jpg" alt="Profile Picture">
+        </div>
+        <div class="community-child-text f-left">
+          <span>Mike Paul</span>
+          <h2 class="">Lorem ipsum dolor sit amet.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi odio recusandae adipisci unde
+            accusamus perferendis, corporis neque quaerat nemo expedita quisquam officiis perspiciatis eveniet
+            beatae? Consequuntur nisi quo accusantium eaque deserunt, excepturi et!</p>
+        </div>
+      </div>
+      <div>
+        <div class="f-left">
+          <img class="community-img" src="./images/profile-image-placeholder.jpg" alt="Profile Picture">
+        </div>
+        <div class="community-child-text f-left">
+          <span>Mike Paul</span>
+          <h2 class="">Lorem ipsum dolor sit amet.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi odio recusandae adipisci unde
+            accusamus perferendis, corporis neque quaerat nemo expedita quisquam officiis perspiciatis eveniet
+            beatae? Consequuntur nisi quo accusantium eaque deserunt, excepturi et!</p>
+        </div>
+      </div>
+    </section>
+    <section class="community-child margin-auto">
+      <div>
+        <div class="f-left">
+          <img class="community-img" src="./images/profile-image-placeholder.jpg" alt="Profile Picture">
+        </div>
+        <div class="community-child-text f-left">
+          <span>Mike Paul</span>
+          <h2 class="">Lorem ipsum dolor sit amet.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi odio recusandae adipisci unde
+            accusamus perferendis, corporis neque quaerat nemo expedita quisquam officiis perspiciatis eveniet
+            beatae? Consequuntur nisi quo accusantium eaque deserunt, excepturi et!</p>
+        </div>
+      </div>
+      <div>
+        <div class="f-left">
+          <img class="community-img" src="./images/profile-image-placeholder.jpg" alt="Profile Picture">
+        </div>
+        <div class="community-child-text f-left">
+          <span>Mike Paul</span>
+          <h2 class="">Lorem ipsum dolor sit amet.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi odio recusandae adipisci unde
+            accusamus perferendis, corporis neque quaerat nemo expedita quisquam officiis perspiciatis eveniet
+            beatae? Consequuntur nisi quo accusantium eaque deserunt, excepturi et!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- More Links on Twitter-->
+    <div class="margin-auto twitter-links">
+      <p class="twitter-para">MORE LINKS ON TWITTER<i class="fas fa-long-arrow-alt-right"></i></p>
+    </div>
+
+    <!-- Featured Section -->
+    <section class="featured dflex middle-art-color white">
+      <div class="text-l">
+        <p>FEATURED SMASHING BOOK</p>
+        <h2 class="text-underline">Design Systems</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum sint praesentium neque vero, iusto ab
+          quasi magnam accusamus. Beatae ullam eveniet aspernatur aperiam saepe laudantium expedita est.</p>
+        <button class="b-rad-eight" type="button">Jump To Table of Contents <i
+            class="fas fa-long-arrow-alt-right"></i></button>
+      </div>
+      <div class="feat-img">
+        <img src="images/download.jpeg" alt="background image">
+      </div>
+    </section>
+
+    <!-- Linked Sections -->
+    <div class="linked-sections dgrid">
+      <div class="grid-temp b-rad-ten">
+        <p class="p-top">Lorem ipsum dolor sit.</p>
+        <h4 class="text-underline bottom-grid-font">Lorem, ipsum dolor.</h4>
+        <p class="p-bot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quae est, quia, architecto
+          obcaecati,
+          placeat vitae quaerat consequatur tempora necessitatibus adipisci. Qui dolores rerum in earum consectetur
+          repudiandae fugit assumenda optio sapiente exercitationem! Ex, tempora consequuntur.</p>
+        <button class="white b-rad-ten bottom-grid-font" type="button">Lorem ipsum dolor sit amet consectetur.</button>
+      </div>
+
+      <div class="grid-temp b-rad-ten">
+        <p class="p-top">Lorem ipsum dolor sit.</p>
+        <h4 class="text-underline bottom-grid-font">Lorem, ipsum dolor.</h4>
+        <p class="p-bot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quae est, quia, architecto
+          obcaecati,
+          placeat vitae quaerat consequatur tempora necessitatibus adipisci. Qui dolores rerum in earum consectetur
+          repudiandae fugit assumenda optio sapiente exercitationem! Ex, tempora consequuntur.</p>
+        <button class="white b-rad-ten bottom-grid-font" type="button">Lorem ipsum dolor sit.</button>
+      </div>
+      <div class="grid-temp b-rad-ten">
+        <p class="p-top">Lorem ipsum dolor sit.</p>
+        <h4 class="text-underline bottom-grid-font">Lorem, ipsum dolor.</h4>
+        <p class="p-bot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quae est, quia, architecto
+          obcaecati,
+          placeat vitae quaerat consequatur tempora necessitatibus adipisci. Qui dolores rerum in earum consectetur
+          repudiandae fugit assumenda optio sapiente exercitationem! Ex, tempora consequuntur.</p>
+        <button class="white b-rad-ten bottom-grid-font" type="button">Lorem ipsum dolor sit.</button>
+      </div>
+      <div class="grid-bottom-link b-rad-ten">
+        <img src="images/grid-btmimg.jpeg" alt="waves">
+        <h3 class="bottom-grid-font">Lorem ipsum dolor sit.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quo nihil maiores veritatis, illo asperiores
+          voluptate nostrum, at esse distinctio reiciendis earum vitae voluptatibus deserunt aperiam porro? Eius, saepe
+          facere!</p>
+        <div class="btm-text margin-auto white b-rad-eight">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit ipsum atque sunt.</p>
+        </div>
+      </div>
+    </div>
+    <div class="margin-auto guides-links">
+      <p class="twitter-para">SEE ALL GUIDES<i class="fas fa-long-arrow-alt-right"></i></p>
+    </div>
+  </main>
+
+  <footer class="middle-art-color white">
+    <p class="foot-top align-text-center">BROWSE ALL SMASHING MAGAZINE TOPICS</p>
+    <ul class="dflex">
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+      <li><a href="#">LorumLorum</a></li>
+    </ul>
+
+    <div class="bottom-foot-div dflex">
+      <div>
+        <img src="images/download.jpeg" alt="Ifel tower">
+      </div>
+      <div class="middle align-text-center">
+        <p><span>With a commitment to quality content for the design community.</span>
+
+          Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.
+
+          Smashing is proudly running on Netlify.
+
+          Fonts by Latinotype.</p>
+      </div>
+      <div>
+        <img src="images/download-one.jpeg" alt="Ifel tower 2">
+      </div>
+
+    </div>
+
+  </footer>
+</body>
+
+</html>
